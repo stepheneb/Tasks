@@ -322,6 +322,9 @@
   margin-top: 4px;
 }
 
+.sc-theme .sc-radio-view.sc-layout-horizontal .sc-radio-button {
+  margin-top: 4px;
+}
 .picker-resizable-handle {
   width: 16px;
   height: 16px;
