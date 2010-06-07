@@ -42,6 +42,9 @@ Tasks.settingsPage = SC.Page.create({
           layout: { centerY: 1, height: 12, left: 190, width: 12 },
           isVisible: NO,
           classNames: ['filter-cancel-icon'],
+          touchStart: function() {
+            this.mouseDown();
+          },
           mouseDown: function() {
             Tasks.usersController.set('userNamePattern', '');
           },
